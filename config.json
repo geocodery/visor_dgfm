@@ -1,0 +1,374 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "yellow",
+      "black",
+      "default",
+      "blue",
+      "cyan",
+      "green",
+      "purple",
+      "red"
+    ],
+    "version": "2.17",
+    "sharedTheme": {
+      "isPortalSupport": false,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#333333"
+    }
+  },
+  "portalUrl": "https://danielgis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "<div class=\"attribute-custom-style\"><b><font size=\"4\">REINFO</font></b></div>",
+  "subtitle": "<div class=\"attribute-custom-style\"><br></div>",
+  "keepAppState": false,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.17",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_widgets_Coordinate_Widget_4.json"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "version": "2.17",
+        "closeable": true,
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_6",
+        "version": "0.0.1",
+        "closeable": true,
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADoElEQVRoQ+1avWpWQRA98wY+gIJ5Ay0tlAREsBAiiJ2CoIUIggEFtbCKgoKCYKUgmE4EBQtBBIMWlvENDGivbzByZC+se2f2596r3O8jWyb7M2fPzNmZuZ9gSYZMiUNVDwHYAHAUwEFj710AnwE8FJGvU549CRBV3QfgMYBzDcZtAbgqIr8a1rhTpwLyohFEZ9CWiJyfBRBVXQXwcYQxayKyPWL9n6WjGVHVoWxMysoUQMgGWbEGb/oLgCO5OSKyNgdGLCBUpAuxMgVFew6AyhaP7bkCoQqtWGoU1O0bAKpcN2YL5J6I3PJcRVXvAri5CECyKmSo3GwZWRogS+NaDHay0sulgnJR5RYi2BnHBHNdRJ51Qa2qFwE8SEDw37ONkViwCIjM8O2IWViId6T1kV4IRmpA7QGJb+lfJ417jNTcwNSMLE09QlnlI5em5zWXSmnm4zm6bh8dI7Q2pOetYCYD0VTqBmNvhGrvdHqLjWBMEGGP16GqvN/CVBUjqroO4FHUq8oZUmKmdi17YKwyqxoTRSBGIZRtGhSYcd0p08TIZtOdMVkgzua9hDCNagdMMSbCpV028rJi/8sF4oDoNRUyJW2sZkUQUZZM9bOaFFkwJpAQEwy6eFQbExnVtVKbWqMZ96TIvLEurwfE6XS4xVLNYzFkjlOEuR0aCwgLoKfJ4VUBF68JhpyN/vaytQPvCM2luGBzg11VrYYb+1SUw+IodOYppb03KBNn/DTBPlg8zLTfYkTTjUWkKNNRXFiMxls2sauqVfb8ZWC4zZ8jgZSSyKZCaigQSt+OQXWLazELSBUv3tJVHuM9slyL03r2VLkWgFZ3IJg7SUbMGLvmyacVJ15WYbm6BYTBlX7/o+wdrg34RL1Wa/OlZB1toHek3ZddEVnpub9BZ9pk7qY0P4hFiXMmFPI10zssRjy/5LEEQx+vkuIhQFSV5zPGvELNjFcvRfFYoW3FpHEIAK7JdCO7Ld1Y9YDUlK9kZRPAq5YCyHBlnnUGwG3n23yVa+eyXx6Qfl2yLpsMvQXwCcCHGrcL7nMcwDEApzLt1O48N8fqJpTqkZK/el6Uq+q8D6feXlUiU0w9Bv6qYWiYpOuqfx1RBBLlULxJFjzWb0ymMrzbp6le56JqIBEgJoVXBvaxSoDpRk+sNL20sBlIBIg6z3rj5EhQNP4dgOZ6JQY3GEiSTlDhCOwEgP0ADmRu8DuAHwDe84EdI92TAynR/j/+/xsjBeNCn8IhzgAAAABJRU5ErkJggg==",
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_7",
+        "version": "0.0.1",
+        "closeable": true,
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAB+UlEQVRoQ+1a0VHDMAx9mgJG4A+YgDIEHDtwTMAc7MDRISgTULaAPzYQ5xLn3GAnz8LpuTnns5VlPT3JkpUIyEdV3wFckOKlxLYicskoE0bIyaiqsrIl5USEspESWjKQVUmvR3Rt/G+zMsIqt4INw5jdyxRarPIGJDhYWKc1Rqxhw6xrOTKXlxi9MZnGCOM5i5cYvbMwoqonAJ4BjFZu9kgsASShw1X+OxH56juAUFBVX6dAOPkKgDgzNiJynQJCdbiVANlzqLDhFDJXC5DOph0zDggVThUD2THjgFDhtEgg1tNornVmRuYyyKq3AbF6LnPdGsBTt+YewE1qfc2MrEXkdlCsX1JgagayEpG3AZArV81jrNQM5EJEPpYAZDGh5cjwyf4N4PFYkz3rgKs5RxqQLA/UJtxC6xgYCfubob1hVT3Ya4WRGULff8VC6zScTAwqa38BO+RVN7WXqp4D2PphyN4NcczAGuda3qY/jDQghbOfZT/JCIBjyhE3Ff2M5kjXqD3EEp71UglypvbqEr1vJM0FMcylQh8S7H0YkDui8kDMA7puSrmj97/PwDlZszYPhJrApwZ0FTDyOzL1BnbePRvxbPZLfCtLg9BKdhHhvb691bV6m1k3dWpFJymMYieTe5Kweqfk2L7OFFpTm5f8fw4gVX949gOeOJxCZc87kwAAAABJRU5ErkJggg==",
+        "uri": ""
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_8"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 5,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "bottom": 0,
+          "right": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.17",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_13.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.17",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash",
+        "config": "configs/Splash/config_widgets_Splash_Widget_14.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "top": 190,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.17"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "top": 150,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.17",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "3c538cd3defa4a83be60b90c3bf88a99",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://danielgis.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "Consulta_wgt",
+        "version": "0.0.1",
+        "IsController": false,
+        "uri": "widgets/Consulta_wgt/Widget",
+        "config": "configs/Consulta_wgt/config_widgets_Consulta_wgt_Widget_29.json",
+        "index": 2,
+        "id": "widgets_Consulta_wgt_Widget_29",
+        "openAtStart": true
+      },
+      {
+        "name": "LayerList",
+        "version": "2.17",
+        "uri": "widgets/LayerList/Widget",
+        "config": "configs/LayerList/config_widgets_LayerList_Widget_19.json",
+        "index": 3,
+        "id": "widgets_LayerList_Widget_19"
+      },
+      {
+        "name": "Measurement",
+        "version": "2.17",
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config_widgets_Measurement_Widget_21.json",
+        "index": 4,
+        "id": "widgets_Measurement_Widget_21"
+      },
+      {
+        "name": "Estadisticas_wgt",
+        "version": "0.0.1",
+        "IsController": false,
+        "icon": "configs\\Estadisticas_wgt\\icon_widgets_Estadisticas_wgt_Widget_24.png",
+        "uri": "widgets/Estadisticas_wgt/Widget",
+        "config": "configs/Estadisticas_wgt/config_widgets_Estadisticas_wgt_Widget_24.json",
+        "index": 5,
+        "id": "widgets_Estadisticas_wgt_Widget_24"
+      },
+      {
+        "name": "Print",
+        "version": "2.17",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_widgets_Print_Widget_28.json",
+        "index": 6,
+        "id": "widgets_Print_Widget_28"
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.17",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_20.json",
+        "index": 7,
+        "id": "widgets_BasemapGallery_Widget_20"
+      },
+      {
+        "name": "Legend",
+        "version": "2.17",
+        "uri": "widgets/Legend/Widget",
+        "config": "configs/Legend/config_widgets_Legend_Widget_18.json",
+        "index": 8,
+        "id": "widgets_Legend_Widget_18"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": {
+      "visible": true
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 80,
+      "height": 80
+    }
+  },
+  "wabVersion": "2.17",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "logoAlt": "MINEM",
+  "logoLink": "http://www.minem.gob.pe/index2.php"
+}

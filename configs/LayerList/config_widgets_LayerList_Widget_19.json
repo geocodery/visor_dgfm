@@ -1,0 +1,192 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "catastro_minero_7931": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_3572": {
+      "display": false
+    },
+    "DGFM_DCASUMIDA_UNION_2283_1691": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_4296": {
+      "display": true
+    },
+    "DGFM_DERECHOMINERO_9921": {
+      "display": true
+    },
+    "DGFM_DERECHOMINERO_9921_4854": {
+      "display": true
+    },
+    "DGFM_DERECHOMINERO_9921_9829": {
+      "display": true
+    },
+    "T_GENS_CCPP_9721": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_1081": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_6875": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_3493": {
+      "display": true
+    },
+    "DGFM_DERECHOMINERO_9921_3746": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_442": {
+      "display": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_6934": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_0": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_1": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_2": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_3": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_4": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_5": {
+      "display": true
+    },
+    "SERV_CATASTRO_MINERO_9832_6": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_0": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_1": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_2": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_3": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_4": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_5": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_6": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_7": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_8": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_9": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_10": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_11": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_12": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_13": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_14": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_15": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_16": {
+      "display": true
+    },
+    "SERV_AREA_RESERVADA_4184_17": {
+      "display": true
+    },
+    "Topografia_447": {
+      "display": true
+    },
+    "Topografia_447_0": {
+      "display": true
+    },
+    "Topografia_447_1": {
+      "display": true
+    },
+    "Topografia_447_2": {
+      "display": true
+    },
+    "Topografia_447_3": {
+      "display": true
+    },
+    "Topografia_447_4": {
+      "display": true
+    },
+    "Topografia_447_5": {
+      "display": true
+    },
+    "Topografia_447_6": {
+      "display": true
+    },
+    "Topografia_447_7": {
+      "display": true
+    },
+    "Topografia_447_8": {
+      "display": true
+    },
+    "Topografia_447_9": {
+      "display": true
+    },
+    "Topografia_447_10": {
+      "display": true
+    },
+    "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5485": {
+      "display": true
+    },
+    "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5485_0": {
+      "display": true
+    },
+    "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5485_1": {
+      "display": true
+    },
+    "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5485_2": {
+      "display": true
+    }
+  }
+}

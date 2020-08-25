@@ -1,0 +1,167 @@
+{
+  "spatialReferences": [
+    {
+      "wkid": "4326",
+      "isDefault": false,
+      "label": "GCS_WGS_1984",
+      "alias": "WGS84 GCS",
+      "outputUnit": "Degree",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": true,
+        "isGeographicUnit": true,
+        "isProjectedCS": false,
+        "isProjectUnit": false,
+        "spheroidCS": 4326,
+        "defaultUnit": "Degree",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "3857",
+      "isDefault": true,
+      "label": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+      "alias": "Pseudo Mercator",
+      "outputUnit": "METER",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": true,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4326,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "32717",
+      "isDefault": false,
+      "label": "WGS_1984_UTM_Zone_17S",
+      "alias": "WGS 84 UTM Zona 17S",
+      "outputUnit": "Meter",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4326,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "32718",
+      "isDefault": false,
+      "label": "WGS_1984_UTM_Zone_18S",
+      "alias": "WGS 84 UTM Zona 18S",
+      "outputUnit": "METER",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4326,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "32719",
+      "isDefault": false,
+      "label": "WGS_1984_UTM_Zone_19S",
+      "alias": "WGS 84 UTM Zona 19S",
+      "outputUnit": "METER",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4326,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "24877",
+      "isDefault": false,
+      "label": "PSAD_1956_UTM_Zone_17S",
+      "alias": "PSAD_1956_UTM_Zone_17S",
+      "outputUnit": "Meter",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4248,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "24878",
+      "isDefault": false,
+      "label": "PSAD_1956_UTM_Zone_18S",
+      "alias": "PSAD56 UTM Zona 18S",
+      "outputUnit": "Meter",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4248,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    },
+    {
+      "wkid": "24879",
+      "isDefault": false,
+      "label": "PSAD_1956_UTM_Zone_19S",
+      "alias": "PSAD56 UTM Zona 19S",
+      "outputUnit": "Meter",
+      "transformationWkid": "",
+      "transformationLabel": "Nombre de transformación",
+      "transformForward": false,
+      "options": {
+        "sameSRWithMap": false,
+        "isGeographicCS": false,
+        "isGeographicUnit": false,
+        "isProjectedCS": true,
+        "isProjectUnit": true,
+        "spheroidCS": 4248,
+        "defaultUnit": "Meter",
+        "unitRate": 1
+      }
+    }
+  ],
+  "decimalPlaces": 4,
+  "addSeparator": false,
+  "displayOrderLonLat": true
+}

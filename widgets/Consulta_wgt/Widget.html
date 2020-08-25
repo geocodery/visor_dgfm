@@ -1,0 +1,147 @@
+<div style="height: 100%;">
+    <div class="tabs is-fullwidth" style="margin-bottom: 0;">
+        <ul>
+            <li id="tareas" class="opcion_cw is-active"><a><strong>${nls.tareas}</strong></a></li>
+            <li id="resultados" class="opcion_cw" data-dojo-attach-point="ap_resultados_cw"><a><strong>${nls.resultados}</strong></a></li>
+        </ul>
+    </div>
+    <div class="container_opcion_cw active" data-dojo-attach-point="tareas_opcion_cw">
+        <table class="lista_capas_consulta_cw table is-hoverable is-fullwidth" data-dojo-attach-point="ListaCapasConsulta">
+            <tbody>
+                <tr id='dc' class="capa_consulta_cw" style="cursor: pointer;">
+                    <th><span>${nls.option_query_dc}</span></th>
+                    <th class="has-text-right"><span class="icon has-text-info">
+                  <i class="fas fa-filter"></i>
+                </span></th>
+                </tr>
+                <tr id='dm' class="capa_consulta_cw" style="cursor: pointer;">
+                    <th><span></span>${nls.option_query_dm}</span>
+                    </th>
+                    <th class="has-text-right"><span class="icon has-text-info">
+                  <i class="fas fa-filter"></i>
+                </span></th>
+                </tr>
+                <tr></tr>
+            </tbody>
+        </table>
+        <div class="container_cw">
+            <table class="table is-fullwidth">
+                <tbody>
+                    <tr>
+                        <th style="width: 10%; cursor: pointer;" data-dojo-attach-event="onclick:_returnListaCapasConsulta">
+                            <span class="icon has-text-info"><i class="fas fa-angle-double-left"></i></span>
+                        </th>
+                        <th class="has-text-centered" data-dojo-attach-point="titulo_consulta"></th>
+                        <th style="width: 10%;"></th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="formulario_cw" data-dojo-attach-point="formulario_dc_cw">
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_ruc}</label>
+                    <div class="control">
+                        <input class="input is-small" type="text" maxlength="11" data-dojo-attach-point="input_ruc_dc_cw" data-dojo-attach-event="oninput:_validateRucNumber" placeholder="Numérico de 11 digitos">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_nombre}</label>
+                    <div class="control">
+                        <input class="input is-small" type="text" data-dojo-attach-point="input_nombre_dc_cw">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_tipo_persona}</label>
+                    <div class="control">
+                        <div class="select is-small is-fullwidth">
+                            <select data-dojo-attach-point="select_tipo_persona_cw">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_codigou}</label>
+                    <div class="control">
+                        <input class="input is-small" type="text" data-dojo-attach-point="input_codigou_dc_cw">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_nombre_dm}</label>
+                    <div class="control">
+                        <input class="input is-small" type="text" data-dojo-attach-point="input_nombre_dm_dc_cw">
+                    </div>
+                </div>
+                <div class="field limite_select_cw active" data-dojo-attach-point="container_departamento_cw">
+                    <label class="label is-small">${nls.field_dc_departamento}</label>
+                    <div class="control">
+                        <div class="select is-small is-fullwidth">
+                            <select data-dojo-attach-point="departamento_cw" data-dojo-attach-event="change:_getDataByProvincia">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field limite_select_cw" data-dojo-attach-point="container_provincia_cw">
+                    <label class="label is-small">${nls.field_dc_provincia}</label>
+                    <div class="control">
+                        <div class="select is-small is-fullwidth">
+                            <select data-dojo-attach-point="provincia_cw" data-dojo-attach-event="change:_getDataByDistrito">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field limite_select_cw" data-dojo-attach-point="container_distrito_cw">
+                    <label class="label is-small">${nls.field_dc_distrito}</label>
+                    <div class="control">
+                        <div class="select is-small is-fullwidth">
+                            <select data-dojo-attach-point="distrito_cw" data-dojo-attach-event="change:_getDistritoSelected">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formulario_cw" data-dojo-attach-point="formulario_dm_cw">
+                <div class="field">
+                    <label class="label is-small">${nls.field_dc_codigou}</label>
+                    <div class="control">
+                        <input tabindex="0" class="input is-small" type="text" data-dojo-attach-point="input_codigou_dm_cw">
+                    </div>
+                </div>
+                <div class=" field">
+                    <label class="label is-small ">${nls.field_dc_nombre_dm}</label>
+                    <div class="control">
+                        <input tabindex="1" class="input is-small" type="text" data-dojo-attach-point="input_nombre_dm_cw">
+                    </div>
+                </div>
+            </div>
+            <button class="button is-small is-fullwidth is-primary btn_aplicar_cw " data-dojo-attach-point="btn_aplicar_cw " data-dojo-attach-event="click:_applyQuery ">${nls.apply}</button>
+        </div>
+    </div>
+    <div class="container_opcion_cw" data-dojo-attach-point="resultados_opcion_cw">
+        <div data-dojo-attach-point="ap_none_resultados_opcion_cw">
+            <p>${nls.none_results}</p>
+        </div>
+        <div class="success_resultados_opcion_cw" data-dojo-attach-point="container_resultados_opcion_cw">
+            <div class="indicador_resultados_cw" data-dojo-attach-point="ap_indicador_resultados_cw">
+                <p><strong></strong></p>
+            </div>
+            <div class="titulo_resultados_cw" data-dojo-attach-point="ap_titulo_resultados_cw">
+            </div>
+            <div class="registros_resultados_cw">
+                <aside class="menu is-small">
+                    <ul class="menu-list" data-dojo-attach-point="ap_registros_encontrados_cw">
+                        <li style='display: none;' data-dojo-attach-point="ap_template_registros_resultados_cw">
+                            <a>
+                                <div class="columns is-mobile">
+                                    <div class="column is-four-fifths title_registros_cw"></div>
+                                    <div class="column has-text-right"><span class="icon has-text-info"><i class="fas fa-chevron-down"></i></span></div>
+                                </div>
+                            </a>
+                            <ul class="detalle_registros_resultados_cw">
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,65 @@
+.consulta-wgt h3 {
+  font-size: 1.2em; }
+
+.consulta-wgt h3,
+.consulta-wgt p {
+  margin-top: 0; }
+
+.consulta-wgt .container_cw {
+  display: none; }
+
+.consulta-wgt .formulario_cw {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  top: 90px;
+  bottom: 50px; }
+
+.consulta-wgt .btn_aplicar_cw {
+  position: absolute;
+  bottom: 2px; }
+
+.consulta-wgt .container_opcion_cw {
+  display: none; }
+
+.consulta-wgt .limite_select_cw {
+  display: none; }
+
+.consulta-wgt .indicador_resultados_cw {
+  text-align: center;
+  font-size: 50px; }
+
+.consulta-wgt .titulo_resultados_cw {
+  text-align: center; }
+
+.consulta-wgt .registros_resultados_cw {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  top: 155px;
+  bottom: 14px; }
+
+.consulta-wgt .success_resultados_opcion_cw {
+  display: none; }
+
+.consulta-wgt .alerta_resultados_cw {
+  display: none;
+  position: absolute;
+  bottom: 2px; }
+
+.consulta-wgt .codigou_cw,
+.consulta-wgt .reinfos_cw {
+  cursor: pointer; }
+
+.consulta-wgt .registro_dc {
+  border-bottom: #ddd solid 1px; }
+
+.consulta-wgt .active {
+  display: block;
+  width: 100%; }
+
+/* add additional custom styles */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "DGFM_DCASUMIDA_UNION_2283": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_1691": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_4296": {
+      "selected": true
+    },
+    "DGFM_DERECHOMINERO_9921": {
+      "selected": true
+    },
+    "DGFM_DERECHOMINERO_9921_4854": {
+      "selected": true
+    },
+    "DGFM_DERECHOMINERO_9921_9829": {
+      "selected": true
+    },
+    "T_GENS_CCPP_9721": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_1081": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_6875": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_3493": {
+      "selected": true
+    },
+    "DGFM_DERECHOMINERO_9921_3746": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_442": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_6934": {
+      "selected": true
+    },
+    "SERV_CATASTRO_MINERO_9832": {
+      "selected": false
+    },
+    "SERV_AREA_RESERVADA_4184": {
+      "selected": false
+    },
+    "Topografia_447": {
+      "selected": false
+    },
+    "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5485": {
+      "selected": false
+    },
+    "catastro_minero_7931": {
+      "selected": true
+    },
+    "DGFM_DCASUMIDA_UNION_2283_3572": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

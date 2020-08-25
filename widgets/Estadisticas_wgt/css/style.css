@@ -1,0 +1,45 @@
+.estadisticas-wgt {
+  margin: -14px; }
+  .estadisticas-wgt h3 {
+    font-size: 1.2em;
+    padding: 0; }
+  .estadisticas-wgt h3,
+  .estadisticas-wgt p {
+    margin-top: 0; }
+  .estadisticas-wgt .container_ew {
+    padding: 14px; }
+  .estadisticas-wgt .accordion_ew {
+    background-color: #ffffff;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s; }
+  .estadisticas-wgt .active {
+    background-color: #fff; }
+  .estadisticas-wgt .accordion_ew:hover {
+    background-color: #fff; }
+  .estadisticas-wgt .accordion_ew:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px; }
+  .estadisticas-wgt .accordion_ew.active:after {
+    content: "\2212"; }
+  .estadisticas-wgt .panel_ew {
+    padding: 0 5px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out; }
+  .estadisticas-wgt .panel_ew.active {
+    max-height: 100%; }
+
+/* add additional custom styles */
+
+/*# sourceMappingURL=style.css.map */
